@@ -1,0 +1,20 @@
+BACKBONE = "vgg19"
+
+FEATURE_LAYERS = [3, 8, 17, 26]
+
+AGGREGATION_STRIDE = 1
+
+OUTPUT_STRIDE = 1
+
+LATENT_DIM = 256  # bottleneck size
+
+BATCH_SIZE = 8
+LR = 1e-4
+EPOCHS = 50
+
+THRESHOLD = 0.5
+
+UPSAMPLE_MODE = "bilinear"
+IMAGE_SIZE = 256
+
+DEVICE = "cuda" 
